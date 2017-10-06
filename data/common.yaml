@@ -28,7 +28,7 @@ uwsgi::config::configfile: /etc/uwsgi.ini
 uwsgi::config::log_rotate: false
 # template
 uwsgi::config::emperor_options: {}
-uwsgi::config::tyrant: true
+uwsgi::config::tyrant: false
 uwsgi::config::logfile: /var/log/uwsgi/uwsgi-emperor.log
 
 ## uwsgi::install
